@@ -9,3 +9,5 @@ jobs:
       - uses: actions/checkout@v2
       - name: ls
         run: ls -lah
+      - name: cos_sim.py test
+      - run: python3 cos_sim.py
