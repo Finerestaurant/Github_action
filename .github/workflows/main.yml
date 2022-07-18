@@ -1,4 +1,6 @@
-name: cos_sim.py test
+name: cos_sim.py
+
+# 시작 해볼게요.
 
 on: [push]
 
