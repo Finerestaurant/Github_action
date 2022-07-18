@@ -3,7 +3,7 @@ name: cos_sim.py test
 on: [push]
 
 jobs:
-  vim_test:
+  cos_sim_test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
