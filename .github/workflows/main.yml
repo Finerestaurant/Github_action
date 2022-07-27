@@ -6,7 +6,7 @@ on: [push]
 
 jobs:
   cos_sim_test:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux, test]
     steps:
       - uses: actions/checkout@v2
       - name: ls
